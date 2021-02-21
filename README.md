@@ -12,3 +12,5 @@ useEffect(()=>{
   setColor(randomHexColor);
 },[])    
 ```
+
+#### I'll do a refactoring using the hook useCallback()
