@@ -7,9 +7,12 @@
         
         example: 
         
-        ``` const [randomHexColor]  = useGetRandomColor();    
+        ```
+const [randomHexColor]  = useGetRandomColor();    
         
         useEffect(()=>{
            setColor(randomHexColor);
-        },[]) ```
+        },[]) 
+
+```
      
