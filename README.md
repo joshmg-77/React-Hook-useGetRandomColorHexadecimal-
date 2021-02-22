@@ -18,6 +18,5 @@ example:
 ```
 
  <span style="color:#0f9" >I'll do a refactoring using the hook useCallback()</span>
- ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `hola`
 
 ##### just copy and paste
