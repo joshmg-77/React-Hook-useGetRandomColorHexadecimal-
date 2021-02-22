@@ -14,3 +14,5 @@ useEffect(()=>{
 ```
 
 #### I'll do a refactoring using the hook useCallback()
+
+##### just copy and paste
