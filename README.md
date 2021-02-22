@@ -9,12 +9,14 @@ example:
 
 
 ```javascript
-const [randomHexColor]  = useGetRandomColor();           
-useEffect(()=>{
-  setColor(randomHexColor);
-},[])    
+    const [randomColor] = useGenerateRandomHex();
+    const [optionColor,setOptionColor] = useState(randomColor||"#547bc9");
+
+    useEffect(()=>{
+      setOptionColor(randomColor)
+    },[randomColor])
 ```
 
-#### I'll do a refactoring using the hook useCallback()
+ <span style="color:red" >I'll do a refactoring using the hook useCallback()</span>
 
 ##### just copy and paste
